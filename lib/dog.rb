@@ -23,6 +23,8 @@ class Dog
     end
   end
   
+  def self.save
+  end
   
   def name
     @name
