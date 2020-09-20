@@ -18,7 +18,8 @@ class Dog
   
   def self.print_all
     @@all.each do |array|
-      p array.name
+      individual_name = array.name
+      p individual_name.to_s
     end
   end
   
